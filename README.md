@@ -51,8 +51,8 @@ Our flight fare prediction dataset has 10,682 observations with booking details 
 9. BaggingRegressor
 
 ## Final Result
-The Random Forest Regressor model emerged as the most effective have below metric scores:
-* R2 score- 81%
+The XGBoostRegressor model emerged as the most effective have below metric scores:
+* R2 score- 83%
 
 ## Deployed URLs
 
@@ -60,6 +60,9 @@ The Random Forest Regressor model emerged as the most effective have below metri
 ## Project Artifacts
 
 ## MLOps
+* MLFlow - To track experiments, model verioning and reprodicibility
+* DagsHub - Integrated & hosted tool for MLOps [Click here](https://dagshub.com/tusharishere/Flight-Fare-Prediction/experiments/#/)
+![alt text](image.png)
 
 ## License
 This project is licensed under the Apache-2.0  License.
