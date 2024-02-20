@@ -21,6 +21,23 @@ Our flight fare prediction dataset has 10,682 observations with booking details 
 ## Artifacts
 
 #### Preprocessings steps
+1. Data Ingestion and Preprocessing:
+
+        .Data is ingested using functions in data_ingestion.py.
+        .Data preprocessing and feature engineering are performed in data_transformation.py.
+
+2. Model Training:
+
+        .Machine learning models are trained using the data in model_training.py.
+        .You can customize the models and hyperparameters as needed.
+
+3. Prediction Pipeline:
+
+        .The prediction_pipeline.py script handles fare predictions based on user input.
+
+4. Notebook:
+
+         .The notebook.ipynb contains an interactive Jupyter Notebook that provides insights into the project.
 
 #### Algorithms used to find best model
 1. LinearRegression
